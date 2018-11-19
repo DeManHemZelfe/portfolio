@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link href="stylesheet.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Contact</title>
+
+
+
+
+        <style>
+        body {font-family: Arial, Helvetica, sans-serif;}
+        * {box-sizing: border-box;}
+
+
+
+        input[type=text], select, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid black;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+        }
+
+        input[type=submit], [type=reset]{
+            background-color: firebrick;
+            color: oldlace;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type=submit], [type=reset]:hover {
+            background-color: firebrick;
+        }
+
+        .container {
+            border-radius: 5px;
+            background-color: oldlace;
+            padding: 20px;
+        }
+
+        </style>
+</head>
+<div id="content">
+    <header>
+        <ul id="block">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="schoolwerk.html">Schoolwerk</a></li>
+            <li><a href="project.html">Projecten</a></li>
+            <li><a href="cv.html">CV</a></li>
+            <li><a href="niels.html">Over mijzelf</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </header>
+    <body>
+    <h3>Contact</h3>
+
+
+
+
+    <div class="container">
+        <form action="">
+            <label for="fname">Voornaam</label>
+            <input type="text" id="fname" name="firstname" placeholder="voornaam">
+
+            <label for="lname">Achternaam</label>
+            <input type="text" id="lname" name="lastname" placeholder="achternaam">
+
+            <label for="country">Land</label>
+            <select id="country" name="country">
+                <option value="europa">Nederland</option>
+                <option value="vs">Belgie</option>
+                <option value="azie">Duitsland</option>
+            </select>
+
+            <label for="subject">Onderwerp</label>
+            <textarea id="subject" name="subject" placeholder="" ></textarea>
+
+            <label for="body">Body</label>
+            <textarea id="body" name="body" placeholder="" style="height: 150px"></textarea>
+
+            <input type="submit" formaction="mailto:example@email.com?cc=other@domain.com&subject=Email%20Subject&Email%20fname">
+            <input type="reset" style="margin-left: 50px">
+
+        </form>
+    </div>
+
+    <div id="contact_container">
+        <div id="contact_flex_box_een">
+            Niels Martens<br class="br">
+            E-mail : niels_martens@outlook.com<br class="br">
+            Telefoonnummer : 0612300312<br class="br">
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    </body>
+</div>
+<div id="footer">
+    <footer>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="schoolwerk.html">Schoolwerk</a></li>
+            <li><a href="project.html">Projecten</a></li>
+            <li><a href="cv.html">CV</a></li>
+            <li><a href="niels.html">Over mijzelf</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <p>Copyright ©</p><p>TM</p>
+        </ul>
+    </footer>
+</div>
+</html>

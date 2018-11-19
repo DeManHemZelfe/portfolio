@@ -2,29 +2,85 @@
 <html lang="en">
 <head>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <link href="stylesheet.css" rel="stylesheet">
     <meta charset="UTF-8">
     <title>Portfolio</title>
+
+
     <style>
+        .icon-bar {
+            background-color: black;
+            position: fixed;
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+        }
 
+        .icon-bar a {
+            display: block;
+            text-align: center;
+            padding: 5px;
+            transition: all 0.3s ease;
+            color: white;
+            /*font-size: 20px;*/
+        }
+
+        .icon-bar a i {
+            height: 10px;
+            width: auto;
+        }
+
+        .icon-bar a:hover {
+            color: lightblue;
+        }
+
+        .facebook {
+            background: #3B5998;
+            color: white;
+        }
+
+        .twitter {
+            background-color: #55ACEE;
+            color: black;
+        }
+
+        .google {
+            background: #dd4b39;
+            color: white;
+        }
+
+        .linkedin {
+            background: #007bb5;
+            color: white;
+        }
+
+        .youtube {
+            background: #bb0000;
+            color: white;
+        }
+
+        .content {
+            margin-left: 75px;
+            font-size: 30px;
+        }
     </style>
-    <script>
-
-
-
-
-
-    </script>
 </head>
 <div id="content">
 <header>
     <ul id="block">
+
         <li><a href="index.html">Home</a></li>
         <li><a href="schoolwerk.html">Schoolwerk</a></li>
         <li><a href="project.html">Projecten</a></li>
-        <li><a href="">CV</a></li>
+        <li><a href="cv.html">CV</a></li>
         <li><a href="niels.html">Over mijzelf</a></li>
-        <li><a href="">Contact</a></li>
+        <li><a href="contact.html">Contact</a></li>
     </ul>
 </header>
 <body>
@@ -58,6 +114,14 @@
         Mauris placerat scelerisque iaculis.
         Nulla vitae blandit ex, vitae pellentesque augue.
     </div>
+</div>
+
+<div class="icon-bar">
+    <a href="#" class="facebook" hreflang=""><i class="fa fa-facebook"></i></a>
+    <a href="https://twitter.com/FROMIVANB" class="twitter"><i class="fa fa-twitter"></i></a>
+    <a href="#" class="google"><i class="fa fa-google"></i></a>
+    <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+    <a href="#" class="youtube"><i class="fa fa-youtube"></i></a>
 </div>
 
 <div id="tweedecontainer">
@@ -103,11 +167,12 @@ PLAATS DE LINKJES IN DE FOOTER GOED!!!!!!!
         <li><a href="index.html">Home</a></li>
         <li><a href="schoolwerk.html">Schoolwerk</a></li>
         <li><a href="project.html">Projecten</a></li>
-        <li><a href="">CV</a></li>
+        <li><a href="cv.html">CV</a></li>
         <li><a href="niels.html">Over mijzelf</a></li>
-        <li><a href="">Contact</a></li>
-        <p>Copyright ©</p><p>TM</p>
+        <li><a href="contact.html">Contact</a></li>
+
     </ul>
+
 </footer>
 </div>
 </html>

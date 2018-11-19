@@ -29,7 +29,7 @@ h3 {
     background: moccasin;
 }
 footer {
-    margin-top: 300px;
+    margin-top: 100px;
     width: 100%;
     background-color: saddlebrown;
     border: dotted 1px grey;
@@ -153,3 +153,29 @@ iframe {
     margin-left: 435px;
 }
 
+div#contact_container {
+    display: flex;
+    background-color: #4e4a8e;
+    padding: 20px;
+    margin-top: 10px;
+
+}
+div#contact_flex_box_een {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    margin-left: 22px;
+    width: 22%;
+    margin-bottom: 20px;
+    padding: 10px;
+
+    word-spacing: 1px;
+}
+.br {
+}
+img#img_avatar {
+    height: 390px;
+    width: 392px;
+    /* border: 10px solid red; */
+}
