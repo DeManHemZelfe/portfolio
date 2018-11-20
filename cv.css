@@ -1,0 +1,96 @@
+* {
+    border: dotted 1px grey;
+
+}
+
+/*div#content {*/
+/*display: inline-block;*/
+/*justify-content: space-between;*/
+/*}*/
+/*div#footer {*/
+/*justify-content: space-between;*/
+/*}*/
+
+
+/*HIER OP LAAT IK 2 BOXEN TUSSEN DE FOOTER EN DE BODY KOMEN MET DAARIN DE CONTENT*/
+
+
+
+
+body {
+    background-color: powderblue;
+}
+header {
+    background-color: saddlebrown;
+    border: dotted 1px grey;
+}
+h3 {
+    font-size: 55px;
+    text-align: center;
+    background: moccasin;
+}
+footer {
+
+    width: 100%;
+    background-color: saddlebrown;
+    border: dotted 1px grey;
+    justify-content: space-between;
+    margin-top: 400px;
+}
+ul#block {
+    display: inline-block;
+    margin: 20px;
+}
+li {
+    display: inline-block;
+    background-color: white;
+    text-decoration-color: white;
+    margin-left: 20px;
+}
+a {
+    text-decoration: none;
+    background-color: white;
+    margin: 20px;
+}
+img {
+    /*width: 534px;*/
+    /*height: 390px;*/
+}
+
+
+div#flex-container {
+    margin-left: 120px;
+    /*display: flex;*/
+    justify-content: space-around;
+    margin-top: 35px;
+    width: 50%;
+    height: 390px;
+    border: dotted 1px grey;
+
+}
+div#img_holder {
+    display: flex;
+    width: 25%;
+    height: 100%;
+    margin-left:20px ;
+
+
+}
+div#text-flex {
+    width: 502px;
+    text-align: left;
+    display: flex;
+    background-color: oldlace;
+    border: 1px solid black;
+    font-family: 'Radley', serif;
+}
+
+
+
+
+img#img_avatar {
+    height: 390px;
+    width: 392px;
+    margin-left: 130px;
+    /* border: 10px solid red; */
+}
